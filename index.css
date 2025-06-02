@@ -1,0 +1,444 @@
+*{
+    margin :0;
+    padding : 0;
+    font-family : 'Poppins',sans-serif;
+    box-sizing : border-box;
+}
+body{
+    background: black;
+    color:white;
+
+}
+.header{
+    width : 100%;
+    height : 100vh;
+    background-image : linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("header-image.png");
+    background-size : cover;
+    background-position: center;
+    padding : 10px 8%;
+    position : relative;
+    line-height: 10vh;
+}
+
+
+nav{
+    display : flex;
+    align-items : center;
+    justify-content : space-between;
+    padding: 10px 0;
+}
+.logo{
+    width : 120px;
+    cursor : pointer;
+}
+
+nav  button {
+    border : 0;
+    outline : 0;
+    background : #db0001;
+    color : #fff;
+    padding : 7px 20px;
+    font-size : 12px;
+    border-radius : 4px;
+    margin-left : 10px;
+    cursor : pointer;
+}
+.language-btn{
+    display : inline-flex;
+    align-items : center;
+    background: transparent;
+    border : 1px solid white;
+    padding : 7px 10px;
+}
+.language-btn img{
+    width : 10px;
+    margin-left : 10px;
+}
+.signin u{
+    transition : background-color 1ms;
+}
+.signin u:hover{
+    background-color: rgba(255,0,0,0.7);
+}
+
+.header-content{
+    position : absolute;
+    top : 40%;
+    left : 50%;
+    transform  : translate(-50%,-50%);
+    text-align : center ;
+    margin-top : 100px;
+}
+
+.header-content h1{
+    font : 1000px;
+    line-height: 70px;
+    font-size:10vh;
+    font-family: 'Montserrat ExtraBold';
+}
+.header-content h3{
+line-height:  70px;
+font-family:'Times New Roman', Times, serif;
+}
+.header-content p{
+line-height: 40px;
+font-family: 'Times New Roman', Times, serif;
+}
+#email{
+ display: flexbox;
+ width : 600px;
+ height: 50px;
+ line-height:80px;
+ background: transparent;
+ color:white;
+ padding : 5px 7px;
+ font-size: larger;
+}
+.email-signup button{
+    display: flexbox;
+    background-color: red;
+    color:#fff;
+    margin-top: 10px;
+    width:150px;
+    height: 40px;
+    font-size: 24px;
+    border-color: red;
+    font-family: 'Times New Roman', Times, serif;
+    cursor:pointer;   
+    transition: background-color 1ms;
+}
+.email-signup button:hover{
+    background-color: rgba(255,0,0,0.7);
+}
+
+   .scroll-container {
+      display: flex;
+      overflow-x: auto;
+      gap: 16px;
+      padding: 20px;
+      scroll-behavior: smooth;
+      margin-left: 25vh;
+      margin-right: 25vh;
+    }
+
+   
+    .card {
+      flex: 0 0 auto;
+      width: 200px;
+      height: 300px;
+      background-color: #222;
+      border-radius: 10px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      cursor: pointer;
+      transition-property: all;
+      transition-duration: 500ms;
+    }
+.card img:hover{
+    width : 105%;
+    height : 105%;
+}
+    .number {
+      position:absolute;
+      top:200px;
+      left: 1px;
+      bottom : 50px;
+      background: rgba(0, 0, 0, 0.6);
+      padding: 4px 8px;
+      border-radius: 5px;
+      font-weight: bold;
+      font-size: 100px;
+      color: white;
+      background: transparent;
+      border-color: red;
+    }
+    .space{
+        background-color: black;
+        height:5vh;
+    }
+    .container{
+        
+   
+      display: flex;
+      overflow-x: auto;
+      gap: 16px;
+      padding: 20px;
+      scroll-behavior: smooth;
+      margin-left: 25vh;
+      margin-right: 25vh;
+
+    }
+     .card1 {
+      flex: 0 0 auto;
+      width: 275px;
+      height: 300px;
+      background-color:rgba(39,41,64,255);
+      border-radius: 10px;
+      overflow: hidden;
+      position: relative;
+    }
+    .card1 img{
+ width: 100%;
+      height: 100%;
+      object-fit: cover;
+      cursor: pointer;
+    }
+
+.content h2{
+
+    padding: 10px;
+    line-height: 40px;
+    font-size: 35px;
+
+
+}
+.content p{
+    
+    font-size: 0px;
+}
+
+.container1{
+     display: block;
+      overflow-x: auto;
+      gap: 16px;
+      padding: 20px;
+      scroll-behavior: smooth;
+      margin-left: 25vh;
+      margin-right: 25vh; 
+
+}
+.card2 button{
+    display: flex;
+width : 175vh;
+align-items:center;
+height: 60px;
+font-size:18px;
+padding: 20px;
+justify-content: space-around;
+margin-bottom: 6px;
+background-color:#303030;
+cursor: pointer;
+color:white;
+position: relative;
+font-weight: 500;
+transition : background-color 1ms;
+
+}
+
+.card2 button:hover{
+    background-color: gray;
+}
+.again{
+    position : absolute;
+    top : 40%;
+    left : 50%;
+    transform  : translate(-50%,-50%);
+    text-align : center ;
+    margin-top : 100px;
+}
+.header-content1 p{
+line-height: 40px;
+font-family: 'Times New Roman', Times, serif;
+}
+#email1{
+ display: flexbox;
+ width : 600px;
+ height: 50px;
+ line-height:80px;
+ background: transparent;
+ color:white;
+ padding : 5px 7px;
+ font-size: larger;
+}
+.email-signup button{
+    display: flexbox;
+    background-color: red;
+    color:#fff;
+    margin-top: 10px;
+    width:150px;
+    height: 40px;
+    font-size: 24px;
+    border-color: red;
+    font-family: 'Times New Roman', Times, serif;
+    cursor:pointer;   
+}
+.container2{
+     display: block;
+      overflow-x: auto;
+      gap: 16px;
+      padding: 20px;
+      scroll-behavior: smooth;
+      margin-left: 25vh;
+      margin-right: 25vh; 
+
+}
+  .card3  {
+    display: inline-block;
+    line-height: 25px;
+      width: 275px;
+      height: 150px;
+      background-color :black;
+      border-radius: 10px;
+      overflow: hidden;
+      position: relative;
+      color:gray;
+      user-select: none;
+
+  }
+  .list li{
+    cursor: pointer;
+  }
+.language-btn1{
+        display : inline-flex;
+    align-items : center;
+    background: transparent;
+    border : 1px solid white;
+    padding : 7px 10px;
+    COLOR:#fff;
+    margin-left:28vh;
+}
+.language-btn1 img{
+    width : 10px;
+    margin-left : 10px;
+}
+
+@media (max-width: 1024px) {
+  .header-content h1 {
+    font-size: 7vh;
+    line-height: 50px;
+  }
+
+  .header-content h3,
+  .header-content p {
+    line-height: 30px;
+    font-size: 16px;
+  }
+
+  #email {
+    width: 80%;
+  }
+
+  .email-signup button {
+    width: 50%;
+    font-size: 18px;
+  }
+
+  .scroll-container,
+  .container {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  .card,
+  .card1 {
+    width: 180px;
+    height: 250px;
+  }
+
+  .number {
+    font-size: 60px;
+    top: 150px;
+  }
+
+  .container2,
+  .container1 {
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  .card2 button {
+    width: 90vw;
+    font-size: 16px;
+  }
+
+  .card3 {
+    width: 40vw;
+    margin-bottom: 10px;
+  }
+
+  .language-btn1 {
+    margin-left: 5vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .header-content {
+    top: 35%;
+  }
+
+  .header-content h1 {
+    font-size: 5vh;
+    line-height: 40px;
+  }
+
+  .header-content h3,
+  .header-content p {
+    font-size: 14px;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav img {
+    width: 100px;
+    margin-bottom: 10px;
+  }
+
+  nav button {
+    padding: 5px 12px;
+    font-size: 10px;
+  }
+
+  .scroll-container,
+  .container,
+  .container1,
+  .container2 {
+    flex-direction: column;
+    gap: 10px;
+    overflow-x: hidden;
+  }
+
+  .card,
+  .card1 {
+    width: 90vw;
+    height: 200px;
+  }
+
+  .number {
+    font-size: 40px;
+    top: 130px;
+  }
+
+  .card2 button {
+    width: 90vw;
+    height: auto;
+    padding: 15px;
+  }
+
+  .card3 {
+    width: 90vw;
+    height: auto;
+  }
+
+  .language-btn1 {
+    margin-left: 5vw;
+    padding: 5px 8px;
+  }
+
+  #email {
+    width: 90vw;
+  }
+
+  .email-signup button {
+    width: 90vw;
+    font-size: 18px;
+  }
+}

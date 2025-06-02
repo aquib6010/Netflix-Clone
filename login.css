@@ -1,0 +1,214 @@
+*{
+    margin :0;
+    padding : 0;
+    font-family : 'Poppins',sans-serif;
+    box-sizing : border-box;
+}
+body{
+    background: black;
+    color:white;
+
+}
+.header{
+    width : 100%;
+    height : 100vh;
+    background-image : url(header-image.png);
+    background-size : cover;
+    background-position: center;
+    padding : 10px 8%;
+    position : relative;
+    line-height: 10vh;
+}
+.logo{
+    width : 120px;
+    cursor : pointer;
+}
+.signInBox{
+    top : 20%;
+    background-color: black;
+    height: max-content;
+}
+
+.email{
+ display: flexbox;
+ width : 600px;
+ height: 50px;
+ line-height:80px;
+ background: transparent;
+ color:white;
+ padding : 10px 10px;
+ font-size: larger;
+}
+.email-signup button{
+    display: flexbox;
+    background-color: red;
+    color:#fff;
+    margin-top: 10px;
+    width:600px;
+    height: 40px;
+    font-size: 24px;
+    border-color: red;
+    font-family: 'Times New Roman', Times, serif;
+    cursor:pointer;
+    transition: background-color 1ms;   
+}
+.email-signup button:hover{
+    background-color: rgba(255,0,0,0.7);
+}
+.header-content{
+
+    position : absolute;
+    height:700px;
+    top : 40%;
+    left : 50%;
+    transform  : translate(-50%,-50%);
+    text-align : center ;
+    margin-top : 100px;
+    background-color: rgba(0,0,0,0.7);
+    
+
+}
+.email p{
+
+ display: flexbox;
+ background-color: #303030;
+ margin-left: 10vh;
+ width: 600px;
+ font-size: 25px;
+ height: 80px;
+cursor: pointer;
+transition : background-color 1ms;
+}
+.email p:hover{
+    background-color: gray;
+}
+ .space{
+        
+        height:7vh;
+    }
+    .extra p{
+        display :flexbox;
+        padding :15px;
+        height: 5px;
+    }
+    .container2{
+     display: block;
+      overflow-x: auto;
+      gap: 16px;
+      padding: 20px;
+      scroll-behavior: smooth;
+      margin-left: 25vh;
+      margin-right: 25vh; 
+      
+
+} .card3  {
+    display: inline-block;
+    line-height: 25px;
+      width: 275px;
+      height: 100px;
+      background-color :black;
+      border-radius: 10px;
+      overflow: hidden;
+      position: relative;
+      color:gray;
+      user-select: none;
+
+  }
+    .list li{
+    cursor: pointer;
+  }
+  .language-btn1{
+        display : inline-flex;
+    align-items : center;
+    background: transparent;
+    border : 1px solid white;
+    padding : 7px 10px;
+    COLOR:#fff;
+    margin-left:28vh;
+}
+.language-btn1 img{
+    width : 10px;
+    margin-left : 10px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 20px 5%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .logo {
+    width: 90px;
+  }
+
+  .header-content {
+    position: static;
+    transform: none;
+    margin: 50px auto;
+    width: 90%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .email {
+    width: 100%;
+    height: 45px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .email-signup button {
+    width: 100%;
+    font-size: 18px;
+    height: 45px;
+  }
+
+  .email p {
+    width: 100%;
+    font-size: 18px;
+    height: 60px;
+    margin-left: 0;
+    padding: 10px;
+  }
+
+  .extra p {
+    font-size: 14px;
+    padding: 10px 0;
+    line-height: 20px;
+  }
+
+  .space {
+    height: 4vh;
+  }
+
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 5%;
+  }
+
+  .card3 {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .language-btn1 {
+    margin: 20px auto;
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+
+  .language-btn1 img {
+    width: 10px;
+    margin-left: 5px;
+  }
+}
+
+
+
+
